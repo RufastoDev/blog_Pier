@@ -1,0 +1,11 @@
+html {
+    background-color: #e9ecef;
+}
+hr{
+    background-color: #343a40;
+    height: 3px;
+}
+main img{
+    width: 300px;
+    border-radius: 10px;
+}
