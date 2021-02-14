@@ -1,6 +1,6 @@
 ---
 title: Proceso de vacunación en el Perú 
-date: "2021-02-15T22:12:03.284Z"
+date: "2021-02-13T22:12:03.284Z"
 description: "En que tiempo lograremos vacunar al 70% de la poblacion y lograr la inmunidad de rebaño 🤔 "
 ---
 ## El gran reto de este 2021
