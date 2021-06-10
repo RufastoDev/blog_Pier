@@ -1,17 +1,17 @@
 var plugins = [{
-      plugin: require('C:/Users/User/Documents/MyBlog/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('D:/Coding/blog_Pier/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"head":false,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
     },{
-      plugin: require('C:/Users/User/Documents/MyBlog/node_modules/gatsby-plugin-feed/gatsby-ssr'),
+      plugin: require('D:/Coding/blog_Pier/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/Users/User/Documents/MyBlog/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('D:/Coding/blog_Pier/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Gatsby Starter Blog","short_name":"GatsbyJS","start_url":"/","background_color":"#ffffff","theme_color":"#663399","display":"minimal-ui","icon":"content/assets/blog_icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"28fbed5316dd55f9b9e4b939ade7b2d1"},
     },{
-      plugin: require('C:/Users/User/Documents/MyBlog/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('D:/Coding/blog_Pier/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/Users/User/Documents/MyBlog/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('D:/Coding/blog_Pier/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"pure":false},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

@@ -5,10 +5,10 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("C:\\Users\\User\\Documents\\MyBlog\\.cache\\dev-404-page.js"))),
-  "component---src-pages-404-js": hot(preferDefault(require("C:\\Users\\User\\Documents\\MyBlog\\src\\pages\\404.js"))),
-  "component---src-pages-index-js": hot(preferDefault(require("C:\\Users\\User\\Documents\\MyBlog\\src\\pages\\index.js"))),
-  "component---src-pages-using-typescript-tsx": hot(preferDefault(require("C:\\Users\\User\\Documents\\MyBlog\\src\\pages\\using-typescript.tsx"))),
-  "component---src-templates-blog-post-js": hot(preferDefault(require("C:\\Users\\User\\Documents\\MyBlog\\src\\templates\\blog-post.js")))
+  "component---cache-dev-404-page-js": hot(preferDefault(require("D:\\Coding\\blog_Pier\\.cache\\dev-404-page.js"))),
+  "component---src-pages-404-js": hot(preferDefault(require("D:\\Coding\\blog_Pier\\src\\pages\\404.js"))),
+  "component---src-pages-index-js": hot(preferDefault(require("D:\\Coding\\blog_Pier\\src\\pages\\index.js"))),
+  "component---src-pages-using-typescript-tsx": hot(preferDefault(require("D:\\Coding\\blog_Pier\\src\\pages\\using-typescript.tsx"))),
+  "component---src-templates-blog-post-js": hot(preferDefault(require("D:\\Coding\\blog_Pier\\src\\templates\\blog-post.js")))
 }
 
