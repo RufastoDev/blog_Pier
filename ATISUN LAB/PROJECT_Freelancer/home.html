@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio freelancer</title>
+    <!---Google Fonts---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    <!--Icons--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-----Mi encabezado--------->
+    <header>
+        <h1>Hann Pieer Rufasto <span>freelancer</span></h1>
+    </header>
+    <!------Navegación----->
+    <div class="nav_bg">
+        <nav class="nav_up contenedor">
+            <a href="#">Home</a>
+            <a href="#">Trayectoria</a> 
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
+    
+    <!-----diseño de bienvenida------->
+    <section class="fondo_bienvenida">
+        <div class="container_fondo">
+            
+            <h2>heyy welcome !!</h2>
+            <i class="fas fa-arrow-circle-down"></i>
+            <p>Chiclayo - Perú</p>
+            <button href="#" id="btn_contact">Contactar</button>
+        </div>
+        
+    </section>
+    <!-----Contenido principal------->
+    <main class="sombra">
+        <h2 class="main_text">Services Available</h2>
+        <div class="wrapper_services">
+            <section class="card">
+                <h3>Curso de Producción Musical</h3>
+                <img src="/Production.jpg" alt="produccion_musical"  class="circle_img">
+                <p>Aprenderás a manejar los programas profesionales de música como FL Studio y Ableton Live
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                </p>
+            </section>
+            <section class="card">
+                <h3>Curso de mezcla con Tracktor</h3>
+                <img src="/Mezcla.jpg" alt="mezcla_dj"  class="circle_img" >
+                <p>Aprenderás todos los trucos y formas de mezclar un track, te ayudaremos
+                    a encontrar tu estilo. De la mano de los mejores Dj's nacionales e internacionales</p>
+            </section>
+            <section class="card">
+                <h3>Branding para artistas</h3>
+                <img src="/Branding.jpg" alt="branding_artistas" class="circle_img" >
+                <p>Te daremos el mejor soporte, para darte a conocer dentro del mundo de los festivales y eventos de música
+                     electrónica. Así como el manejo de tu imagen en redes</p>
+            </section>
+        </div>
+        
+    </main>
+    <section>
+        <h2>Contacto</h2>
+        <div class="formulario">
+            <form action="">
+                <fieldset>
+                    <legend>Responderé todas tus dudas mediante este formulario</legend>
+                    <div class="container_campos">
+                        <div class="f_campo">
+                            <label for="">Nombre</label><br>
+                        <input type="text" placeholder="Your name" class="inputss"><br>
+                        </div>
+                        <div class="f_campo">
+                            <label for="">Género de electrónica</label>
+                            <select id="type_gener" name="gener">
+                                <option value="bass">Bass House</option>
+                                <option value="tech">Tech House</option>
+                                <option value="dubstep">Dubstep</option>
+                                <option value="dance">Dance House</option>
+                            </select><br>
+                        </div>
+                        <div class="f_campo">
+                            <label for="">Correo</label><br>
+                            <input type="email" name="correo" placeholder="Example@gmail.com" class="inputss"><br>
+                        </div>
+                        <div class="f_campo">
+                            <label for="">Mensaje</label> <br>
+                            <textarea name="mensaje" id="text_area" class="inputss"></textarea>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" id="btn_send">Enviar :v</button>
+        
+                     
+                </fieldset>
+                
+            </form>
+        </div>
+        
+    </section>
+    <footer>
+        All rights reserved @ HannPieer_Vásquez_Rufasto
+    </footer>
+
+    
+</body>
+</html>
